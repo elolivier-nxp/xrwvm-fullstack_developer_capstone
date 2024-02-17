@@ -1,70 +1,68 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>about</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/bootstrap.min.css">
-</head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+        <div class="container-fluid">
+          <h2 style="padding-right: 5%;">Dealerships</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
       <div class="banner" name="about-header">
         <h1>About Us</h1>
         Welcome to Best Cars dealership, home to the best cars in North America. We deal in sale of domestic and imported cars at reasonable prices.
       </div>
       <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/business-woman-one.webp" alt="Card image" style="height: 50%;">
-        <div class="card-body">
-          <p class="title">Jane Doe</p>
-          <p>CEO</p>
-          <p class="card-text">Captain, oh my captain!</p>
-          <p>jane.doe@mail.com</p>
+        <div class="card" style="width: 30%;">
+          <h3 class="align-self-center mt-2">CEO</h3>
+            <img class="card-img-top" src="/static/business-woman-one.webp" alt="Card image" style="height: 45%;">
+            <div class="card-body">
+              <p class="title">Jane Doe</p>
+              <p class="card-text">Captain, oh my captain!</p>
+              <p>email: <a href="mailto:jane.doe@mail.com">jane.doe@mail.com</a></p>
+            </div>
         </div>
-      </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/business-man.webp" alt="Card image" style="height: 50%;">
-        <div class="card-body">
-          <p class="title">John Doe</p>
-          <p>CTO</p>
-          <p class="card-text">You need something about tech? John is your guy!</p>
-          <p>john.doe@mail.com</p>
+        <div class="card" style="width: 30%;">
+          <h3 class="align-self-center mt-2">CTO</h3>
+          <img class="card-img-top" src="/static/business-man.webp" alt="Card image" style="height: 45%;">
+          <div class="card-body">
+            <p class="title">John Doe</p>
+            <p class="card-text">You need something about tech? John is your guy!</p>
+            <p>email: <a href="mailto:john.doe@mail.com">john.doe@mail.com</a></p>
+          </div>
         </div>
-      </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/business-woman-two.webp" alt="Card image" style="height: 50%;">
-        <div class="card-body">
-          <p class="title">Jule Dae</p>
-          <p>CFO</p>
-          <p class="card-text">Thanks to Jule we know how many taco Tuesdays we can afford!</p>
-          <p>jule.dae@mail.com</p>
+        <div class="card" style="width: 30%;">
+          <h3 class="align-self-center mt-2">CFO</h3>
+          <img class="card-img-top" src="/static/business-woman-two.webp" alt="Card image" style="height: 45%;">
+          <div class="card-body">
+            <p class="title">Jule Dae</p>
+            <p class="card-text">Thanks to Jule we know how many taco Tuesdays we can afford!</p>
+            <p>email: <a href="mailto:jule.dae@mail.com">jule.dae@mail.com</a></p>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-    </div>
-
-</div>
-
+  </body>
 </html>
