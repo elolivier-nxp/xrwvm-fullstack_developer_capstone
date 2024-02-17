@@ -34,7 +34,7 @@ img{
 
 .title{
   font-size: 20px;
-  background-color: rgb(108, 223, 208);
+  background-color: darkblue;
   color: white;
   text-align: center;
   margin:20px;
@@ -128,4 +128,8 @@ img{
 .img_top {
   width: 500px;
   height: 200px;
+}
+
+.img_main {
+  border-radius: 25px;
 }
