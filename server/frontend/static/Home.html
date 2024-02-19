@@ -33,12 +33,12 @@
 
     if (curr_user && curr_user !== "") {
       document.getElementById("loginlogout").innerHTML =
-      '<span class="homepage_links">' + curr_user +'</span>' +
-      '<a class="homepage_links" onclick="logout()" style="color: whitesmoke; href="/">Logout</a>'
+      '<span class="homepage_links" style="color: whitesmoke">' + curr_user +'</span>' +
+      '<a class="homepage_links" onclick="logout()" style="color: whitesmoke" href="/">Logout</a>'
     } else {
       document.getElementById("loginlogout").innerHTML =
-      '<a class="homepage_links" style="color: whitesmoke; href="/login">Login</a>'+
-      '<a class="homepage_links" style="color: whitesmoke; href="/register">Register</a>'
+      '<a class="homepage_links" style="color: whitesmoke" href="/login">Login</a>'+
+      '<a class="homepage_links" style="color: whitesmoke" href="/register">Register</a>'
     }
    }
   </script>
