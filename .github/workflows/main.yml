@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
-    
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -37,7 +37,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 20
       - name: Install JSHint
         run: npm install jshint --global
       - name: Run Linter
